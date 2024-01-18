@@ -79,3 +79,10 @@ variable "ssl_certificate_arn" {
   default     = "arn:aws:acm:us-east-1:155266142766:certificate/c74d6a86-1cdd-4cd4-9b31-96bd9e4f82f0"
   description = "ssl certificate arn"
 }
+
+# sns topic variable
+variable "operator_email" {
+  type        = string
+  default     = "jcooke716@gmail.com"
+  description = "a valid email address"
+}
